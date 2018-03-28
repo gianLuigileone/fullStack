@@ -11,11 +11,16 @@ import org.springframework.util.StringUtils;
 import java.util.List;
 import java.util.Objects;
 
+import javax.persistence.EntityManager;
+
 @Service
 public class ArticleServiceImpl implements ArticleService {
 
     @Autowired
     private ArticleDao articleDao;
+    
+    @Autowired
+    EntityManager em;
 
     @Override
     public List<Article> retrieveAllArticles() {
@@ -90,4 +95,15 @@ public class ArticleServiceImpl implements ArticleService {
 
         return entity;
     }
+
+	@Override
+	public List<Article> searchBy(String title) {
+		return null;
+	}
+
+	/*@Override
+	public List<Article> searchBy(String title) {
+		Objects.requireNonNull(title, "the title cannot be null");
+		return articleDao.searchBy(em,title);
+	}*/
 }

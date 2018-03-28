@@ -9,6 +9,7 @@ public interface UserFacade {
 
 	public CustomerDto login(CustomerDto customerDto);
 	public CustomerDto register(CustomerDto customerDto);
+	public void logout();
 	List<CustomerDto> retrieveAllUsers(); 
 
 }

@@ -60,4 +60,16 @@ public class ArticleFacadeImpl implements ArticleFacade {
         Article article = articleService.addLikeToArticle(id);
         return mapperFacade.map(article, ArticleDto.class);
     }
+
+	@Override
+	public List<ArticleDto> searchBy(String title) {
+		List<Article> articles = articleService.searchBy(title);
+		
+		 List<ArticleDto> articleDtoList = articles.stream()
+	                .map(a -> mapperFacade.map(a,ArticleDto.class))
+	                .collect(Collectors.toList());
+
+
+	    return articleDtoList;
+	}
 }

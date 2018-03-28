@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.mcs.be.course.service.CustomerService;
+import com.mcs.be.course.service.SessionService;
 import com.mcs.be.course.dao.CustomerDao;
 import com.mcs.be.course.model.*;
 @Service
@@ -14,13 +15,14 @@ public class CustomerServiceImpl implements CustomerService {
 
     @Autowired
     private CustomerDao CustomerDao;
+   
+    @Autowired
+    private SessionService sessionService;
 
     @Override
     public List<Customer> retrieveAllUsers() {
         return CustomerDao.findAll();
     }
-
-
 
 	@Override
 	public Customer register(Customer user) {
@@ -45,7 +47,7 @@ public class CustomerServiceImpl implements CustomerService {
 		{
 			if(user.getId().equals(id)&& user.getPassword().equals(password))
 			{
-				return user;
+				return user;	
 			}
 		}
 		return null;

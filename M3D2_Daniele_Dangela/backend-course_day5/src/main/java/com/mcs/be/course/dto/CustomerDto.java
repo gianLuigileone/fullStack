@@ -74,6 +74,13 @@ public class CustomerDto implements Serializable {
 	}
 
 
+	@Override
+	public String toString() {
+		return "CustomerDto [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + ", password="
+				+ password + ", cartId=" + cartId + "]";
+	}
+
+	
 	
     
 

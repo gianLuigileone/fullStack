@@ -15,4 +15,6 @@ public interface ArticleService {
     Article updateArticle(Article article) throws ElementNotFound;
 
     Article addLikeToArticle(Long id) throws ElementNotFound;
+
+	List<Article> searchBy(String title);
 }

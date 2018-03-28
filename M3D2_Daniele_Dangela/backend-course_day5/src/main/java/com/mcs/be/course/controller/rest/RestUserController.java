@@ -7,16 +7,15 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
-
 import com.mcs.be.course.dto.CustomerDto;
 import com.mcs.be.course.facade.UserFacade;
-import com.mcs.be.course.model.Customer;
+
 
 @RestController
 @RequestMapping(value = "/user")
-public class RestUserLoginController {
+public class RestUserController {
 
-    private static final Logger LOGGER = LogManager.getLogger(RestUserLoginController.class);
+    private static final Logger LOGGER = LogManager.getLogger(RestUserController.class);
 
     @Autowired
     private UserFacade userFacade;
@@ -27,10 +26,17 @@ public class RestUserLoginController {
     	return userFacade.login(customerDto);
     }
   
-    @RequestMapping(value = "/register" ,method=RequestMethod.POST)
+    @RequestMapping(value = "/register", method=RequestMethod.POST)
     public CustomerDto register(@RequestBody CustomerDto customerDto) 
     {
     	return userFacade.register(customerDto);
     }
+    
+    @RequestMapping(value = "/logout",method=RequestMethod.POST)
+    public void logout() 
+    {
+    	userFacade.logout();
+    }
+    
 
 }
