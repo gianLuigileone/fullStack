@@ -1,11 +1,11 @@
 package com.mcs.be.course.service;
 
-import com.mcs.be.course.exception.ElementNotFound;
-import com.mcs.be.course.model.Article;
+
+import com.mcs.be.course.model.Customer;
 
 import java.util.List;
 
-public interface UserService 
+public interface CustomerService 
 {
    
 	  List<Customer> retrieveAllUsers();
