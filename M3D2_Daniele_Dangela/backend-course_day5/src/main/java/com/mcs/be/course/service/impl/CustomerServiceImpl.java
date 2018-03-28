@@ -15,11 +15,11 @@ import java.util.Objects;
 public class CustomerServiceImpl implements CustomerService {
 
     @Autowired
-    private Customer CustomerDao;
+    private CustomerDao customerDao;
 
     @Override
     public List<Customer> retrieveAllUsers() {
-        return CustomerDao.findAll();
+        return customerDao.findAll();
     }
 
 
