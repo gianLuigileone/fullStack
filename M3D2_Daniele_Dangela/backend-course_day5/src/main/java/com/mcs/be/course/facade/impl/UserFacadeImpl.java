@@ -4,6 +4,7 @@ import java.util.List;
 import java.util.Objects;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import com.mcs.be.course.dao.CustomerDao;
 import com.mcs.be.course.facade.UserFacade;
@@ -11,6 +12,7 @@ import com.mcs.be.course.model.Customer;
 
 import ma.glasnost.orika.MapperFacade;
 
+@Component
 public class UserFacadeImpl implements UserFacade{
 	
 	
