@@ -21,7 +21,7 @@ public class CartEntry  implements Serializable {
 	private Long id;
 	
 	 @Column(nullable = false)
-	 private String articleId;
+	 private Long articleId;
 	 
 	 @Column(nullable = false)
 	 private int quantity;
@@ -37,11 +37,11 @@ public class CartEntry  implements Serializable {
 		this.id = id;
 	}
 
-	public String getArticleId() {
+	public Long getArticleId() {
 		return articleId;
 	}
 
-	public void setArticleId(String articleId) {
+	public void setArticleId(Long articleId) {
 		this.articleId = articleId;
 	}
 
