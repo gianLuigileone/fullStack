@@ -1,4 +1,4 @@
-package com.mcs.be.course.controller.rest;
+/*package com.mcs.be.course.controller.rest;
 
 import java.util.List;
 
@@ -48,4 +48,4 @@ public class RestArticleController {
     public ArticleDto saveOrUpdate(@RequestBody ArticleDto articleDto) throws ElementNotFound {
     	return articleFacade.saveOrUpdate(articleDto);
     }
-}
+}*/

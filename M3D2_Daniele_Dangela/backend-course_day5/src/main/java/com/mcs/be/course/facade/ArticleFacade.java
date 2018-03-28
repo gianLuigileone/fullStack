@@ -1,4 +1,4 @@
-package com.mcs.be.course.facade;
+/*package com.mcs.be.course.facade;
 
 import com.mcs.be.course.dto.ArticleDto;
 import com.mcs.be.course.exception.ElementNotFound;
@@ -15,3 +15,4 @@ public interface ArticleFacade {
 
     ArticleDto addLikeToArticle(Long id) throws ElementNotFound;
 }
+*/

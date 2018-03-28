@@ -1,4 +1,4 @@
-package com.mcs.be.course.facade.impl;
+/*package com.mcs.be.course.facade.impl;
 
 import com.mcs.be.course.dto.ArticleDto;
 import com.mcs.be.course.exception.ElementNotFound;
@@ -60,4 +60,4 @@ public class ArticleFacadeImpl implements ArticleFacade {
         Article article = articleService.addLikeToArticle(id);
         return mapperFacade.map(article, ArticleDto.class);
     }
-}
+}*/
