@@ -11,6 +11,8 @@ public class CartEntryDto implements Serializable{
      private BigDecimal unitPrice;
      
      
+     //TODO campo "totalPrice" (quantity * unitPrice) (configurare OrikaMapper per farlo)
+     
 	public CartEntryDto () {}
 
 
