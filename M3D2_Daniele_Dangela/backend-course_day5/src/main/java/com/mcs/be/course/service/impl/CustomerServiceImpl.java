@@ -1,25 +1,23 @@
 package com.mcs.be.course.service.impl;
 
-import com.mcs.be.course.model.Customer;
-import com.mcs.be.course.service.CustomerService;
-import com.mcs.be.course.model.*;
-
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
-import org.springframework.util.StringUtils;
-
 import java.util.List;
 import java.util.Objects;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.mcs.be.course.service.CustomerService;
+import com.mcs.be.course.dao.CustomerDao;
+import com.mcs.be.course.model.*;
 @Service
 public class CustomerServiceImpl implements CustomerService {
 
     @Autowired
-    private CustomerDao customerDao;
+    private CustomerDao CustomerDao;
 
     @Override
     public List<Customer> retrieveAllUsers() {
-        return customerDao.findAll();
+        return CustomerDao.findAll();
     }
 
 
