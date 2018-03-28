@@ -1,4 +1,5 @@
 *.class
  .MF
+.log
 */.settings/*
 **/target/
