@@ -27,6 +27,7 @@ public class Customer implements Serializable {
     @Column(nullable = false)
     private String password;
     
+    @Column
     private Long cartId;
 
 	public Long getId() {
