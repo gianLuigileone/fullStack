@@ -40,7 +40,7 @@ public class CustomerServiceImpl implements CustomerService {
 	}
 
 	@Override
-	public Customer login(String id, String password) {
+	public Customer login(long id, String password) {
 		for(Customer user:  retrieveAllUsers())
 		{
 			if(user.getId().equals(id)&& user.getPassword().equals(password))
