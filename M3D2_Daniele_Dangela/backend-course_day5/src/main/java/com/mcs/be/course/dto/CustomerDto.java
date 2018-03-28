@@ -7,6 +7,7 @@ public class CustomerDto implements Serializable {
 	private Long id;
     private String firstName;
     private String lastName;
+    private String password;
     private String plot;
     private String tag;
     private Boolean like;
@@ -14,14 +15,26 @@ public class CustomerDto implements Serializable {
     public CustomerDto() {}
     
     
-	public CustomerDto(Long id, String firstName, String lastName, String plot, String tag, Boolean like) {
+	public CustomerDto(Long id, String firstName, String lastName, String password, String plot, String tag, Boolean like) {
 		super();
 		this.id = id;
 		this.firstName = firstName;
 		this.lastName = lastName;
+		this.password=password;
 		this.plot = plot;
 		this.tag = tag;
 		this.like = like;
+	}
+
+	
+
+	public String getPassword() {
+		return password;
+	}
+
+
+	public void setPassword(String password) {
+		this.password = password;
 	}
 
 
