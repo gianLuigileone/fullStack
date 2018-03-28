@@ -16,6 +16,7 @@ public class CustomerMapping implements OrikaMapperFactoryConfigurer {
                 .field("lastName", "last")
                 .field("password", "pass")
                 .field("cartId", "cart")
+                .field("price", "price")
                 .byDefault()
                 .mapNulls(false)
                 .mapNullsInReverse(true)
