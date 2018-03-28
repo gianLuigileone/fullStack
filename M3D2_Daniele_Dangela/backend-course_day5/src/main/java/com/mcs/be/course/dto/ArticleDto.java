@@ -2,6 +2,7 @@ package com.mcs.be.course.dto;
 
 
 import java.io.Serializable;
+import java.math.BigDecimal;
 
 public class ArticleDto implements Serializable {
 
@@ -11,17 +12,21 @@ public class ArticleDto implements Serializable {
     private String plot;
     private String tag;
     private Boolean like;
+    private BigDecimal price;
+
 
     public ArticleDto() {
     }
 
-    public ArticleDto(Long id, String title, String picture, String plot, String tag, Boolean like) {
+    public ArticleDto(Long id, String title, String picture, String plot, String tag, Boolean like, BigDecimal price) {
         this.id = id;
         this.title = title;
         this.picture = picture;
         this.plot = plot;
         this.tag = tag;
         this.like = like;
+        this.price=price;
+
     }
 
     public Long getId() {
@@ -32,7 +37,15 @@ public class ArticleDto implements Serializable {
         this.id = id;
     }
 
-    public String getTitle() {
+    public BigDecimal getPrice() {
+		return price;
+	}
+
+	public void setPrice(BigDecimal price) {
+		this.price = price;
+	}
+
+	public String getTitle() {
         return title;
     }
 
