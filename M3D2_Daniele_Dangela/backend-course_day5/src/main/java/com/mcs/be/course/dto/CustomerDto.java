@@ -8,22 +8,18 @@ public class CustomerDto implements Serializable {
     private String firstName;
     private String lastName;
     private String password;
-    private String plot;
-    private String tag;
-    private Boolean like;
+    private String cartId;
     
     public CustomerDto() {}
     
     
-	public CustomerDto(Long id, String firstName, String lastName, String password, String plot, String tag, Boolean like) {
+	public CustomerDto(Long id, String firstName, String lastName, String password, String cartId) {
 		super();
 		this.id = id;
 		this.firstName = firstName;
 		this.lastName = lastName;
 		this.password=password;
-		this.plot = plot;
-		this.tag = tag;
-		this.like = like;
+		this.cartId = cartId;
 	}
 
 	
@@ -68,36 +64,17 @@ public class CustomerDto implements Serializable {
 	}
 
 
-	public String getPlot() {
-		return plot;
+	public String getCartId() {
+		return cartId;
 	}
 
 
-	public void setPlot(String plot) {
-		this.plot = plot;
+	public void setCartId(String cartId) {
+		this.cartId = cartId;
 	}
 
 
-	public String getTag() {
-		return tag;
-	}
-
-
-	public void setTag(String tag) {
-		this.tag = tag;
-	}
-
-
-	public Boolean getLike() {
-		return like;
-	}
-
-
-	public void setLike(Boolean like) {
-		this.like = like;
-	}
-    
-    
+	
     
 
 }

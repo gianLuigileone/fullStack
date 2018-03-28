@@ -12,7 +12,7 @@ public interface CustomerService
 	
     Customer register(Customer user);
     
-    Customer login(String id, String password);
+    Customer login(long id, String password);
   
     
 

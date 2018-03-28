@@ -22,10 +22,15 @@ public class RestUserLoginController {
     private UserFacade userFacade;
 
     @RequestMapping(method=RequestMethod.POST)
-    public Customer login(@RequestBody CustomerDto customerDto) 
+    public CustomerDto login(@RequestBody CustomerDto customerDto) 
     {
-    	return userFacade.login(customerDto.getId().toString(), customerDto.getPassword());
+    	return userFacade.login(customerDto);
     }
   
+    @RequestMapping(value = "/register" ,method=RequestMethod.POST)
+    public CustomerDto register(@RequestBody CustomerDto customerDto) 
+    {
+    	return userFacade.register(customerDto);
+    }
 
 }
