@@ -52,7 +52,7 @@ public class UserServiceImpl implements UserService {
     }
 
 	@Override
-	public User register(User user) {
+	public Customer register(Customer user) {
 		 Objects.requireNonNull(user.getId(), "id cannot be null");
 	        Objects.requireNonNull(user.getFirstName(), "First name cannot be null");
 	        Objects.requireNonNull(user.getLastName(), "Last name cannot be null");
@@ -63,8 +63,8 @@ public class UserServiceImpl implements UserService {
 	}
 
 	@Override
-	public User login(String id, String password) {
-		for(User user:  retrieveAllUsers())
+	public Customer login(String id, String password) {
+		for(Customer user:  retrieveAllUsers())
 		{
 			if(user.getId().equals(id)&& user.getPassword().equals(password))
 			{
@@ -75,8 +75,8 @@ public class UserServiceImpl implements UserService {
 	}
 
 	@Override
-	public User register(User user) {
-		for(User userall:  retrieveAllUsers())
+	public Customer register(Customer user) {
+		for(Customer userall:  retrieveAllUsers())
 		{
 			if(userall.getId().equals(user.getId()))
 			{

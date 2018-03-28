@@ -2,7 +2,7 @@ package com.mcs.be.course.dto;
 
 import java.io.Serializable;
 
-public class UserDto implements Serializable {
+public class CustomerDto implements Serializable {
 	
 	private Long id;
     private String firstName;
@@ -11,10 +11,10 @@ public class UserDto implements Serializable {
     private String tag;
     private Boolean like;
     
-    public UserDto() {}
+    public CustomerDto() {}
     
     
-	public UserDto(Long id, String firstName, String lastName, String plot, String tag, Boolean like) {
+	public CustomerDto(Long id, String firstName, String lastName, String plot, String tag, Boolean like) {
 		super();
 		this.id = id;
 		this.firstName = firstName;

@@ -8,11 +8,11 @@ import java.util.List;
 public interface UserService 
 {
    
-	  List<User> retrieveAllUsers();
+	  List<Customer> retrieveAllUsers();
 	
-    User register(User user);
+    Customer register(Customer user);
     
-    User login(String id, String password);
+    Customer login(String id, String password);
   
     
 
