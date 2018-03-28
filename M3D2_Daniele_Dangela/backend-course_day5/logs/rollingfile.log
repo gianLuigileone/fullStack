@@ -4,3 +4,36 @@
 [INFO ] 2018-03-28 15:04:06.488 [main] BackendCourseApplication - Starting BackendCourseApplication on ITEM-S34831 with PID 7288 (D:\fullStack\M3D2_Daniele_Dangela\backend-course_day5\target\classes started by soprasteria in D:\fullStack\M3D2_Daniele_Dangela\backend-course_day5)
 [DEBUG] 2018-03-28 15:04:06.491 [main] BackendCourseApplication - Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
 [INFO ] 2018-03-28 15:04:06.491 [main] BackendCourseApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2018-03-28 15:09:41.836 [main] BackendCourseApplication - Starting BackendCourseApplication on ITEM-S34831 with PID 636 (D:\fullStack\M3D2_Daniele_Dangela\backend-course_day5\target\classes started by soprasteria in D:\fullStack\M3D2_Daniele_Dangela\backend-course_day5)
+[DEBUG] 2018-03-28 15:09:41.840 [main] BackendCourseApplication - Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+[INFO ] 2018-03-28 15:09:41.840 [main] BackendCourseApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2018-03-28 15:13:27.736 [main] BackendCourseApplication - Starting BackendCourseApplication on ITEM-S34831 with PID 4300 (D:\fullStack\M3D2_Daniele_Dangela\backend-course_day5\target\classes started by soprasteria in D:\fullStack\M3D2_Daniele_Dangela\backend-course_day5)
+[DEBUG] 2018-03-28 15:13:27.739 [main] BackendCourseApplication - Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+[INFO ] 2018-03-28 15:13:27.740 [main] BackendCourseApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2018-03-28 15:16:36.400 [main] BackendCourseApplication - Starting BackendCourseApplication on ITEM-S34831 with PID 3080 (D:\fullStack\M3D2_Daniele_Dangela\backend-course_day5\target\classes started by soprasteria in D:\fullStack\M3D2_Daniele_Dangela\backend-course_day5)
+[DEBUG] 2018-03-28 15:16:36.410 [main] BackendCourseApplication - Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+[INFO ] 2018-03-28 15:16:36.410 [main] BackendCourseApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2018-03-28 15:23:44.746 [main] BackendCourseApplication - Starting BackendCourseApplication on ITEM-S34831 with PID 5680 (D:\fullStack\M3D2_Daniele_Dangela\backend-course_day5\target\classes started by soprasteria in D:\fullStack\M3D2_Daniele_Dangela\backend-course_day5)
+[DEBUG] 2018-03-28 15:23:44.756 [main] BackendCourseApplication - Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+[INFO ] 2018-03-28 15:23:44.766 [main] BackendCourseApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2018-03-28 15:27:45.755 [main] BackendCourseApplication - Starting BackendCourseApplication on ITEM-S34831 with PID 6280 (D:\fullStack\M3D2_Daniele_Dangela\backend-course_day5\target\classes started by soprasteria in D:\fullStack\M3D2_Daniele_Dangela\backend-course_day5)
+[DEBUG] 2018-03-28 15:27:45.755 [main] BackendCourseApplication - Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+[INFO ] 2018-03-28 15:27:45.755 [main] BackendCourseApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2018-03-28 15:32:07.954 [main] BackendCourseApplication - Starting BackendCourseApplication on ITEM-S34831 with PID 5852 (D:\fullStack\M3D2_Daniele_Dangela\backend-course_day5\target\classes started by soprasteria in D:\fullStack\M3D2_Daniele_Dangela\backend-course_day5)
+[DEBUG] 2018-03-28 15:32:07.959 [main] BackendCourseApplication - Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+[INFO ] 2018-03-28 15:32:07.959 [main] BackendCourseApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2018-03-28 15:33:02.426 [main] BackendCourseApplication - Starting BackendCourseApplication on ITEM-S34831 with PID 2836 (D:\fullStack\M3D2_Daniele_Dangela\backend-course_day5\target\classes started by soprasteria in D:\fullStack\M3D2_Daniele_Dangela\backend-course_day5)
+[DEBUG] 2018-03-28 15:33:02.426 [main] BackendCourseApplication - Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+[INFO ] 2018-03-28 15:33:02.436 [main] BackendCourseApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2018-03-28 15:33:48.640 [main] BackendCourseApplication - Starting BackendCourseApplication on ITEM-S34831 with PID 7804 (D:\fullStack\M3D2_Daniele_Dangela\backend-course_day5\target\classes started by soprasteria in D:\fullStack\M3D2_Daniele_Dangela\backend-course_day5)
+[DEBUG] 2018-03-28 15:33:48.640 [main] BackendCourseApplication - Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+[INFO ] 2018-03-28 15:33:48.640 [main] BackendCourseApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2018-03-28 15:34:16.870 [main] BackendCourseApplication - Starting BackendCourseApplication on ITEM-S34831 with PID 7224 (D:\fullStack\M3D2_Daniele_Dangela\backend-course_day5\target\classes started by soprasteria in D:\fullStack\M3D2_Daniele_Dangela\backend-course_day5)
+[DEBUG] 2018-03-28 15:34:16.880 [main] BackendCourseApplication - Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+[INFO ] 2018-03-28 15:34:16.880 [main] BackendCourseApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2018-03-28 15:35:08.433 [main] BackendCourseApplication - Starting BackendCourseApplication on ITEM-S34831 with PID 7896 (D:\fullStack\M3D2_Daniele_Dangela\backend-course_day5\target\classes started by soprasteria in D:\fullStack\M3D2_Daniele_Dangela\backend-course_day5)
+[DEBUG] 2018-03-28 15:35:08.443 [main] BackendCourseApplication - Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+[INFO ] 2018-03-28 15:35:08.443 [main] BackendCourseApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2018-03-28 15:36:21.035 [main] BackendCourseApplication - Starting BackendCourseApplication on ITEM-S34831 with PID 7704 (D:\fullStack\M3D2_Daniele_Dangela\backend-course_day5\target\classes started by soprasteria in D:\fullStack\M3D2_Daniele_Dangela\backend-course_day5)
+[DEBUG] 2018-03-28 15:36:21.045 [main] BackendCourseApplication - Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+[INFO ] 2018-03-28 15:36:21.045 [main] BackendCourseApplication - No active profile set, falling back to default profiles: default
