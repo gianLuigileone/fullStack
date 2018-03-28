@@ -1,4 +1,4 @@
-/*package com.mcs.be.course.service.impl;
+package com.mcs.be.course.service.impl;
 
 import com.mcs.be.course.dao.ArticleDao;
 import com.mcs.be.course.exception.ElementNotFound;
@@ -91,4 +91,3 @@ public class ArticleServiceImpl implements ArticleService {
         return entity;
     }
 }
-*/

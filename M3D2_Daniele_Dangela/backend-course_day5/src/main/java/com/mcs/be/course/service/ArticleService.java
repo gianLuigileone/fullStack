@@ -1,4 +1,4 @@
-/*package com.mcs.be.course.service;
+package com.mcs.be.course.service;
 
 import com.mcs.be.course.exception.ElementNotFound;
 import com.mcs.be.course.model.Article;
@@ -16,4 +16,3 @@ public interface ArticleService {
 
     Article addLikeToArticle(Long id) throws ElementNotFound;
 }
-*/
