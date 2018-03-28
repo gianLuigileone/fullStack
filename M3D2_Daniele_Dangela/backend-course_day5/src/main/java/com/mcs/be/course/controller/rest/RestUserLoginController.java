@@ -1,20 +1,14 @@
 package com.mcs.be.course.controller.rest;
 
-import java.util.List;
-
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.mcs.be.course.dto.ArticleDto;
 import com.mcs.be.course.dto.CustomerDto;
-import com.mcs.be.course.exception.ElementNotFound;
-import com.mcs.be.course.facade.ArticleFacade;
 import com.mcs.be.course.facade.UserFacade;
 import com.mcs.be.course.model.Customer;
 
@@ -22,31 +16,16 @@ import com.mcs.be.course.model.Customer;
 @RequestMapping(value = "/user")
 public class RestUserLoginController {
 
-    private static final Logger LOGGER = LogManager.getLogger(RestArticleController.class);
+    private static final Logger LOGGER = LogManager.getLogger(RestUserLoginController.class);
 
     @Autowired
     private UserFacade userFacade;
 
     @RequestMapping(method=RequestMethod.POST)
-    public Customer login(@RequestBody CustomerDto customerDto) throws ElementNotFound{
-    	return userFacade.login(customerDto.getId(), customerDto.)
+    public Customer login(@RequestBody CustomerDto customerDto) 
+    {
+    	return userFacade.login(customerDto.getId().toString(), customerDto.getPassword());
     }
-    //TODO create method that responds to /articles/{id} in GET and returning a ArticleDto
-    @RequestMapping(value = "/{id}", method = RequestMethod.GET)
-    public ArticleDto retrieveArticleById(@PathVariable("id") Long id) throws ElementNotFound {
-    	return articleFacade.retrieveArticleById(id);
-    }
-    
-    //TODO create method that responds to /articles/like in PATCH receiving a json like {"id" : 1} and returning a ArticleDto after updating his like value
-    @RequestMapping(value = "/like" , method = RequestMethod.PATCH)
-    public ArticleDto addLikeToArticle(@RequestBody ArticleDto articleDto) throws ElementNotFound {
-    	return articleFacade.addLikeToArticle(articleDto.getId());
-    }
-    
-    //TODO create method save or update
-    @RequestMapping(method = RequestMethod.POST)
-    public ArticleDto saveOrUpdate(@RequestBody ArticleDto articleDto) throws ElementNotFound {
-    	return articleFacade.saveOrUpdate(articleDto);
-    }
+  
 
 }
